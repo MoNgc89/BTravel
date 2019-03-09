@@ -1,3 +1,24 @@
 body{
   background-color: #efefef;
+  display: flex;
+  justify-content: center;
+}
+ #principal{
+   display: flex;
+   justify-content: center;
+   background-color: crimson;
+   padding: 10px;
+   width: 550px;
+   color: white;
+   font-size: 20px;
+   font-family: sans-serif;
+ }
+
+button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
 }
