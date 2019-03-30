@@ -1,0 +1,41 @@
+.busqueda {
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: 700;
+  font-text-transform: uppercase;
+  font-color: gold;
+  font-text-decoration: overline;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: 700;
+  font-text-transform: uppercase;
+  font-color: gold;
+  font-text-decoration: overline;
+}
+
+h1 {
+  border-color: #071d4f;
+  border-width: 3px;
+}
+
+.footer {
+  background-color: #d6d6d6;
+  color: #9f9f9f;
+}
+
+.thumbnail-grid {
+  max-height: 160px;
+  background-color: #071d4f;
+}
+
+.boton-primario {
+  width: 200px;
+  background-color: #071d4f;
+}
+
+/*# sourceMappingURL=main.css.map */

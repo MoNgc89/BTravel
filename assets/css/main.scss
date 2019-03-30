@@ -1,5 +1,16 @@
 //Common use colors
-$azul-oficial: #071d4f;
-$shade-primario: #d6d6d6;
-$shade-secundario: #9f9f9f;
-$miniaturas: max-height:160px ;
+@import "variables.scss", "mixins.scss";
+
+.footer{
+  background-color: $shade-primario;
+  color: $shade-secundario;
+}
+.thumbnail-grid{
+  max-height: $miniaturas;
+  background-color: $azul-oficial ;
+}
+
+.boton-primario{
+  width: $ancho-boton;
+  background-color: $azul-oficial;
+}
