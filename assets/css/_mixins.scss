@@ -1,25 +1,24 @@
-@mixin titulos {
-  font: {
-    family: Arial;
-    size: 60px;
-    weight: 700;
-    text-transform: uppercase;
-    color: gold;
-    text-decoration: overline;
-  }
-}
-@mixin border {
-  border: {
-      color: $azul-oficial;
-      width: $border;
-    }
-}
-
-.busqueda {
-  @include titulos;
-  padding: 4px;
-  margin-top: 10px;
-}
-
-p { @include titulos;}
-h1 { @include border;}
+// @mixin titulos {
+//   font: {
+//     family: Arial;
+//     weight: 700;
+//     text-transform: uppercase;
+//     color: gold;
+//     text-decoration: overline;
+//   }
+// }
+// @mixin border {
+//   border: {
+//       color: $azul-oficial;
+//       width: $border;
+//     }
+// }
+//
+// .busqueda {
+//   @include titulos;
+//   padding: 4px;
+//   margin-top: 10px;
+// }
+//
+// p { @include titulos;}
+// h1 { @include border;}
